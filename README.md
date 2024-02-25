@@ -2,6 +2,19 @@
 
 github repo for programatice examples, .git in the project directory store all our git related information
 
+### Global Config
+
+git config store the global configuration
+use `git config --list --show-origin` to find location of configuration
+
+### Remote
+
+use `git remote add origin {remote_url}` to add a remote which later can be used to pull commits
+
+### GitHub Authentication
+
+use `git auth login` to configure github account
+
 ### Versioning
 
 - `git config --global user.email {email}` and `git config --global user.nane {name}` to configure git identity
@@ -41,6 +54,7 @@ github repo for programatice examples, .git in the project directory store all o
 - `git revert {commit_id}` makes a new commit to remove the content in commit_id
 - `git revert HEAD` revert back to previous commit and HEAD will point at previous commit
 - `git reset {commit_id}` will reset to the commit id without leave any history
+- `git reset` will revert all the file changes being staged
 
 # Github CLI
 
@@ -48,7 +62,7 @@ github repo for programatice examples, .git in the project directory store all o
 
 - run `gh repo clone Codyle212/Github-Example` to clone this repository
 
-###
+### Create Repository
 
 - run `gh repo create` to create a repository
 
