@@ -1,6 +1,6 @@
 # Github-Example
 
-github repo for programatice examples
+github repo for programatice examples, .git in the project directory store all our git related information
 
 ### Versioning
 
@@ -41,3 +41,15 @@ github repo for programatice examples
 - `git revert {commit_id}` makes a new commit to remove the content in commit_id
 - `git revert HEAD` revert back to previous commit and HEAD will point at previous commit
 - `git reset {commit_id}` will reset to the commit id without leave any history
+
+# Github CLI
+
+### Cloning
+
+- run `gh repo clone Codyle212/Github-Example` to clone this repository
+
+###
+
+- run `gh repo create` to create a repository
+
+- use `  gh repo create my-project --private --source=. --remote=upstream` to create a repo base on local directory
