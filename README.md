@@ -10,10 +10,22 @@ use `git config --list --show-origin` to find location of configuration
 ### Remote
 
 use `git remote add origin {remote_url}` to add a remote which later can be used to pull commits
+if we are pushing to remote with no branch, use `git push origin {branch_name}`
 
 ### GitHub Authentication
 
 use `git auth login` to configure github account
+
+### Solve Conflicts
+
+use `git merge main` to the local branch you work on before submitting a pull request
+
+### Stashes
+
+use `git stash {stash_name}` to put the staged files aside
+use `git stash list` to check out all stashes
+use `git stash pop` to bring the changes back
+use `git stash apply {stash_name}` to apply the stash to the branch
 
 ### Versioning
 
