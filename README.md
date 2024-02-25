@@ -71,8 +71,12 @@ use `git stash apply {stash_name}` to apply the stash to the branch
 # Github CLI
 
 - run `gh auth login` to authenticate
+- run `gh auth token` to get back a token
+  change the Environment Variables GH_TOKEN to use a different token
 - run `gh repo clone Codyle212/Github-Example` to clone this repository
 - run `gh repo create` to create a repository
 - use `gh repo create my-project --private --source=. --remote=upstream` to create a repo base on local directory
 - use `gh repo delete {repo_name}` to delete repository
+- run `gh repo set-default` to set the current working repo, thne repos spcific command can be run
 - run `gh label list` to list all possible labels
+- run `gh issue create --title {title} --body {body_text}` to create an issue
