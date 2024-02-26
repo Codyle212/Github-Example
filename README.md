@@ -81,7 +81,8 @@ use `git stash apply {stash_name}` to apply the stash to the branch
 - run `gh label list` to list all possible labels
 - run `gh issue create --title {title} --body {body_text}` to create an issue
 - run `gh issue list` to list out all the issues
-- # run `gh issue delete {issue_num}` to delete an issue
+- run `gh pr create --base {main_branch} --head {new_feature_branch}` to create a pull request from new feature branch to main
+- run `gh issue delete {issue_num}` to delete an issue
 
 ### Tags
 
