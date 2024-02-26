@@ -80,3 +80,10 @@ use `git stash apply {stash_name}` to apply the stash to the branch
 - run `gh repo set-default` to set the current working repo, thne repos spcific command can be run
 - run `gh label list` to list all possible labels
 - run `gh issue create --title {title} --body {body_text}` to create an issue
+
+### Tags
+- run `git tag v{tag_num}` to tag a commit
+- run `git push --tags` to push tags to remote
+- run `git checkout v{tag_num}` to check out codebase at tag
+- run `git tag -d  v{tag_num}` to delete local tag
+- run `git push -delete origin tagname` to remove remote tag
