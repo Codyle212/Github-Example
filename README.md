@@ -80,3 +80,5 @@ use `git stash apply {stash_name}` to apply the stash to the branch
 - run `gh repo set-default` to set the current working repo, thne repos spcific command can be run
 - run `gh label list` to list all possible labels
 - run `gh issue create --title {title} --body {body_text}` to create an issue
+- run `gh issue list` to list out all the issues
+- run `gh issue delete {issue_num}` to delete an issue
